@@ -1,0 +1,73 @@
+/* PersonCard.css */
+.person-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    background-color: rgb(2, 0, 0); /* Set card background color to gray */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.person-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.person-name {
+    font-size: 24px;
+    margin: 8px 0;
+    color: rgb(163, 7, 7); /* Set name color to red */
+}
+
+.person-position,
+.person-address {
+    font-size: 16px;
+    margin: 4px 0;
+    color: white; /* Text color to ensure readability against gray background */
+}
+
+.view-incident {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.view-incident:hover {
+    background-color: #0056b3;
+}
+
+.edit-button, .delete-button {
+    display: inline-block;
+    margin: 8px 4px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+.edit-button {
+    background-color: #28a745;
+}
+
+.edit-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}

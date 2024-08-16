@@ -1,0 +1,30 @@
+.person-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.person-form input,
+.person-form button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.person-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.person-form button:hover {
+    background-color: #0056b3;
+}
